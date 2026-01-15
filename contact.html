@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Personal Info Hub | Contact Me</title>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Me</h1>
+
+    <nav>
+      <a href="index.html">Home</a> |
+      <a href="about-me.html">About Me</a> |
+      <a href="contact.html">Contact Me</a> |
+      <a href="gallery.html">Gallery</a>
+    </nav>
+    <hr>
+  </header>
+
+  <main>
+    <section>
+      <h2>Contact Form</h2>
+
+      <form action="#" method="post">
+        <p>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </p>
+
+        <p>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </p>
+
+        <p>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        </p>
+
+        <fieldset>
+          <legend>Gender</legend>
+          <label><input type="radio" name="gender" value="female" required> Female</label><br>
+          <label><input type="radio" name="gender" value="male" required> Male</label><br>
+          <label><input type="radio" name="gender" value="other" required> Other</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Interests</legend>
+          <label><input type="checkbox" name="interest_html" required> HTML</label><br>
+          <label><input type="checkbox" name="interest_design" required> Web Design</label><br>
+          <label><input type="checkbox" name="interest_tech" required> Technology</label>
+        </fieldset>
+
+        <p>
+          <button type="submit">Submit</button>
+        </p>
+      </form>
+
+      <hr>
+
+      <h2>Second Contact Option</h2>
+      <p>
+        Email me:
+        <a href="mailto:zeynabnazari337@email.com">zeynabnazari337@email.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <hr>
+    <p>© 2026 Zeynab Nazari</p>
+  </footer>
+
+</body>
+</html>
